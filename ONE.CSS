@@ -1,0 +1,133 @@
+*{
+    box-sizing:border-box;
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .header{
+    background-color:#3D5F00;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 80px;
+    }
+    .navbar ul{
+       list-style-type: none;
+       padding: 0px;
+       margin: 0px;
+       text-align: center;
+    }
+    @media screen and (max-width:700px) {
+        .navbar ul {
+            text-align: left;
+        }
+    }
+    .navbar li{
+        display:inline-block;
+    }
+    .navbar a{
+text-decoration: none;
+color: #3D5F00;
+display: block;
+padding: 25px 20px;
+font-size: 18px;
+text-align: center;
+    }
+.logo{
+    margin-top:12px;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+input[placeholder]{
+color: white;
+}
+.srarch-logo{
+    margin-top:8px;
+float: left;
+width: 30px;
+height:30px;
+}
+.Login{
+    float:right;
+    color: white;
+    text-decoration: none;
+    font:30px;
+    margin-right: 1%;
+    margin-top:20px;
+}
+.search-button{
+    float: left;
+    width:150px;
+    height: 50px;
+    background-color: #3D5F00;
+    border: none;
+    color: white;
+    border-bottom:2px solid white;
+    margin-left: 20px;
+}
+.img1{
+    width: 100%;
+    position: absolute; 
+}
+.text{
+    margin-top: 5%;
+    margin-left: 5%;
+    position: relative;
+    color: #3D5F00;
+}
+.ORDER{
+    background-color: #3D5F00;
+    font-size:18px;
+    color: white;
+    width: 200px;
+    height:50px;
+    border-radius: 50px;
+}
+@media screen and (max-width:600px) {
+    .ORDER{
+        background-color: #3D5F00;
+        font-size:15px;
+        color: white;
+        width:130px;
+        height:30px;
+        border-radius: 50px;
+}
+}
+.button1{
+    background-color: #3D5F00;
+    font-size:18px;
+    color: white;
+    width: 150px;
+    height:40px;
+    border-radius: 50px;
+}
+@media screen and (max-width:600px) {
+    .button1{
+        background-color: #3D5F00;
+        font-size:12px;
+        color: white;
+        width:70px;
+        height:40px;
+        border-radius: 50px;
+    }  
+}
+.row{
+    border:2px solid red;
+    width: 90%;
+    height: 400px;
+}
+.column{
+    float: left;
+    width: 40%;
+    height: 300px;
+    border: 2px solid black;
+}
+.column-side{
+    float: left;
+    width: 40%;
+    height: 300px;
+    border: 2px solid black;
+}

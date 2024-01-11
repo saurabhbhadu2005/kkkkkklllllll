@@ -1,0 +1,667 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    box-sizing:border-box;
+    color:#3D5F00;
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .header{
+    background-color:#3D5F00;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 80px;
+    }
+    .navbar ul{
+       list-style-type: none;
+       padding: 0px;
+       margin: 0px;
+       text-align: center;
+    }
+    @media screen and (max-width:700px) {
+        .navbar ul {
+            text-align: left;
+        }
+    }
+    .navbar li{
+        display:inline-block;
+    }
+    .navbar a{
+text-decoration: none;
+color: #3D5F00;
+display: block;
+padding: 25px 15px;
+font-size: 18px;
+text-align: center;
+    }
+.logo{
+    margin-top:12px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin-left:35%;
+}
+input[placeholder]{
+color: white;
+}
+.srarch-logo{
+    margin-top:8px;
+float: left;
+width: 30px;
+height:30px;
+}
+.Login{
+    float:right;
+    color: white;
+    text-decoration: none;
+    font:30px;
+    margin-right: 1%;
+    margin-top:20px;
+}
+.search-button{
+    float: left;
+    width:150px;
+    height: 50px;
+    background-color: #3D5F00;
+    border: none;
+    color: white;
+    border-bottom:2px solid white;
+    margin-left: 20px;
+}
+.img1{
+    width: 100%;
+    height: auto;
+    position: absolute; 
+}
+.text{
+    margin-top: 6%;
+    margin-left: 5%;
+    position: relative;
+    color: #3D5F00;
+}
+.ORDER{
+    background-color: #3D5F00;
+    font-size:18px;
+    color: white;
+    width: 200px;
+    height:50px;
+    border-radius: 50px;
+}
+.ORDER:hover{
+    background-color: white;
+    color: #3D5F00;
+}
+@media screen and (max-width:600px) {
+    .ORDER{
+        background-color: #3D5F00;
+        font-size:15px;
+        color: white;
+        width:130px;
+        height:30px;
+        border-radius: 50px;
+}
+}
+.button1{
+    background-color: #3D5F00;
+    font-size:18px;
+    color: white;
+    width: 150px;
+    height:40px;
+    border-radius: 50px;
+}
+.button1:hover{
+    background-color: white;
+    color: #3D5F00;
+}
+.button2{
+    width:100px;
+    height:40px;
+    background-color:#3D5F00;
+    border-radius: 50px;
+    color: white;
+    font-size: 19px;
+}
+.button2:hover{
+    background-color: white;
+    color: #3D5F00;
+}
+  .button1{
+        background-color: #3D5F00;
+        font-size:12px;
+        color: white;
+        width:70px;
+        height:40px;
+        border-radius: 50px;
+    }  
+            .row{
+    width: 100%;
+    margin-top: 560px;
+}
+@media screen and (max-width:800px) {
+    .row{
+margin-top: 300px; 
+   }   
+   }
+@media screen and (max-width:1000px) {
+ .row{
+    margin-top:200px;
+ }   
+}
+@media screen and (max-width:700px) {
+ .row{
+    margin-top: 100px;
+    width: 90%;
+ }   
+}
+.column{
+    margin-left:5%;
+width:40%;
+height: 400px;
+margin-top:5%;
+float: left;
+margin-left:10%;
+}
+@media screen and (max-width:800px) {
+    .column{
+       width:40%;
+    }   
+   }
+@media screen and (max-width:600px) {
+ .column{
+    width:90%;
+ }   
+}
+.column-side{
+width:40%;
+height: 400px;
+float: left;
+margin-top:5%;
+}
+@media screen and (max-width:950px) {
+    .column-side{
+       width:43%;
+       margin-left: 6%;
+        }   
+   }
+@media screen and (max-width:500px) {
+ .column-side{
+    width:95%;
+    margin-top:100px;
+
+ }   
+}
+
+
+
+
+
+
+
+.row1{
+    width: 100%;
+    margin-top:500px;
+}
+@media screen and (max-width:600px) {
+    .row1{
+       width:90%;
+    }   
+   }
+.column1{
+    margin-left:5%;
+width:40%;
+height: 400px;
+float: left;
+}
+@media screen and (max-width:800px) {
+    .column1{
+       width:40%;
+    }   
+   }
+@media screen and (max-width:700px) {
+ .column1{
+    width:90%;
+ }   
+}
+.column-side1{
+width:40%;
+height: 400px;
+float: left;
+margin-left:10%;
+
+}
+@media screen and (max-width:950px) {
+    .column-side1{
+       width:43%;
+       margin-left: 6%;
+        }   
+   }
+@media screen and (max-width:600px) {
+ .column-side1{
+    width:95%;
+    margin-left:5%;
+ }   
+}
+.colmun-middle{
+    width:90%;
+    height: auto;
+    margin-left: 5%;
+}
+@media screen and (max-width:600px) {
+    .colmun-middle{
+    width:90%;
+}
+}
+.col1{
+width:40%;
+height: auto;
+float: left;
+margin-left:15%;
+margin-top: 100px;
+}
+@media screen and (max-width:800px) {
+ .col1{
+    width:70%;
+    margin-left:4%;
+ }   
+}
+@media screen and (max-width:600px) {
+ .col1{
+    width:70%;
+    margin-left:4%;
+ }   
+}
+.col2{
+width:20%;
+height: auto;
+float: left;
+margin-top: 100px;
+}
+@media screen and (max-width:800px) {
+ .col2{
+    width:30%;
+    margin-left:6%;
+ }   
+}
+@media screen and (max-width:600px) {
+ .col2{
+    width:30%;
+    margin-left:4%;
+ }   
+}
+
+.img1{
+    width: 100%;
+    height: auto;
+    position: absolute; 
+}
+.text1{
+    margin-top: 6%;
+    position: relative;
+    color: #3D5F00;
+}
+.font{
+    font-size: 25px;
+}
+@media screen and (max-width:600px){
+    .font{
+        font-size:17px; 
+        margin-left:30px;
+    } 
+}
+.colu{
+    width:90%;
+    height: 500px;
+    float: left;
+    margin-left:10%;
+    margin-top:90px;
+
+}
+.colu1{
+    width:25%;
+    color: white;
+    float: left;
+    height: 400px;
+background-color: #f1f1f1;
+margin-bottom: 20px;
+}
+@media screen and (max-width:800px){
+    .colu1{
+    width:30%; 
+    margin-left:1%;  
+}
+}
+@media screen and (max-width:600px){
+    .colu1{
+    width:90%; 
+    margin-left:1%;  
+}
+}
+.colu2{
+    width:25%;
+    height: 400px;
+    float: left;
+    margin-left:5%;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:800px){
+    .colu2{
+    width:30%; 
+    margin-left:1%;  
+}
+}
+@media screen and (max-width:600px){
+    .colu2{
+    width:90%; 
+    margin-left:1%;  
+}
+}
+.colu3{
+    width:25%;
+    height:400px;
+    float: left;
+    margin-left:5%;
+    background-color: #f1f1f1;
+}
+@media screen and (max-width:800px){
+    .colu3{
+    width:30%; 
+    margin-left:1%;  
+}
+}
+@media screen and (max-width:600px){
+    .colu3{
+    width:90%; 
+    margin-left:1%;  
+}
+}
+.c1{
+    width:100%;
+    height:150px;
+    float: left;
+    background-color: #3D5F00;
+    margin-bottom: 50px;
+}
+.collast{
+    width:25%;
+    height: 300px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-left:6%;
+}
+@media screen and (max-width:800px){
+    .collast{
+    width:43%; 
+    margin-left:4%;  
+}
+}
+@media screen and (max-width:600px){
+    .collast{
+    width:90%; 
+    margin-left:4%;  
+}
+}
+.green{
+    background-color: #3D5F00;
+    width: 100%;
+    height:400px;
+    margin-top: 100px;
+float: left;
+}
+.kl{
+    position: relative;
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+@media screen and (max-width:600px) {
+    .kl{
+        margin-top:800px;
+    }
+}
+.hadding{
+    font-family: Arial,Helvetica, sans-serif;
+     }
+     @media screen and (max-width:600px) {
+    .hadding{
+    font-size: 15px;
+    }
+}
+.button3{
+    width: 150px;
+    height: 50px;
+    background-color: #3D5F00;
+    color: white;
+    margin:auto;
+    display: block;
+    }
+    .button3:hover{
+        background-color: white;
+        color: #3D5F00;
+    }
+    .button4{
+background-color: #3D5F00;
+width: 150px;
+height: 40px;
+border-radius: 50px;
+color: white;
+font: size 19px;
+    }
+    .button4:hover{
+        background-color: white;
+        color: #3D5F00;
+    }
+    @media screen and (max-width:600px){
+.ik{
+    font-size: 16px;
+}        
+    }
+    .jh{
+        font-size: 40px;
+    }
+    @media screen and (max-width:600px){
+.jh{
+    font-size: 16px;
+}
+}  
+.float{
+    font-size:16px;
+}
+@media screen and (max-width:600px){
+    .float{
+margin-left: 30px;
+}
+}
+</style>
+</head>
+<body>
+    <div class="header">
+        <input class="search-button" type="search"  placeholder="search here">
+        <img class="srarch-logo" src="l.jpg">
+        <img class="logo" src="logo.png">
+        <a class="Login" href="#">Register/Login</a>
+        </div>
+         <div class="navbar">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">PRICING</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+            </ul>
+         </div>
+        
+         <img class="img1" src="1.jpg">
+        
+        
+        
+         <div class="text">
+          <h1 class="hadding"><b>AMERICAN  FOOD</b></h1>
+          <H3> THE Best Taste food</H3>
+          <p style="font: 20px sans-serif;">Lorem ipsum available but the majority have<br>
+            suffered alteration in some form, by injected<br>
+            humour,or randomised words</p>
+         <button class="ORDER">ORDER</button>
+         <button class="button1">NOW</button> 
+          </div>
+    <div class="row">
+        <h1 style="text-align: center;color:#3D5F00;">ABOUT US</h1>
+        <p style="text-align: center;color:#3D5F00;font-size: 18px;">Lorem Ipsum available, but the majority have suffered alterationin<br> some form by injected humour</p>
+        <div class="column">
+          <h1 style="color:#3D5F00">Let food be thy medicine<br>medicine be thy food.</h1 >
+          <p style="color:#3D5F00">ore m Ipsum available, but the majority have suffered<br>alteration in some form by injected humour randomise<br>words which don't look even slightly believable. If you<br>are going to use a passage</p>
+        <p style="color:#3D5F00">Lorem Ipsum, you need to be sure there isn't anything<br>embarrassing hidden in the middle of text.</p>
+      <button class="button2">READ </button> 
+      <button class="button2">MOUR</button>
+      </div>
+        <div class="column-side">
+    
+          <div class="one" style="height: 200px; width:200px;border-top:4px solid black;border-left: 4px solid #333;position: absolute;"></div>
+        <img src="2.jpg" style="position: relative;margin-top: 20px;margin-left: 20px;width: 90%;height: 300px;">
+        </div>
+      </div>
+      
+
+
+      <div class="row1">
+        <div class="column-side1">
+          <div class="one" style="height: 200px; width:200px;border-top:4px solid black;border-left: 4px solid #333;position: absolute;"></div>
+        <img src="2.jpg" style="position: relative;margin-top: 20px;margin-left: 20px;width: 90%;height: 300px;">
+        </div>
+        <div class="column1">
+            <h1 style="color:#3D5F00">Let food be thy medicine<br>medicine be thy food.</h1 >
+            <p style="color:#3D5F00">ore m Ipsum available, but the majority have suffered<br>alteration in some form by injected humour randomise<br>words which don't look even slightly believable. If you<br>are going to use a passage</p>
+          <p style="color:#3D5F00">Lorem Ipsum, you need to be sure there isn't anything<br>embarrassing hidden in the middle of text.</p>
+        <button class="button2">READ </button> 
+        <button class="button2">MOUR</button>
+        </div>
+      </div>
+
+  
+      <div class="clmun-middle">
+        <h1 style="text-align: center;">SERVICE</h1>
+        <p style="text-align: center;">Lorem Ipsum available, but the majority have suffered alteration<br>in some form by injected humour</p>
+        <div class="col1">
+            <h1 style="font-size:35px;">Peanut butter &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;                $35</h1>
+            <p style="font-size:20px;">Lorem Ipsum available, but the majority have suffered alteration in<br>
+                some form, by injected humour, or randomised words which don't<br>
+                look even slightly believable. If you are going to use a passage<br>
+                of Lorem Ipsum, you need to be sure</p>
+            <button class="button2">BUY</button></div>
+        <div class="col2">
+            <img src="11.jpg" style="width: auto;height: 200px;">
+                    </div>
+                    </div>
+
+                    <div class="clmun-middle">
+                        <div class="col1">
+                            <h1 style="font-size:35px;">Pumpkin pie  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;                $45</h1>
+                            <p style="font-size:20px;">Lorem Ipsum available, but the majority have suffered alteration in<br>
+                                some form, by injected humour, or randomised words which don't<br>
+                                look even slightly believable. If you are going to use a passage<br>
+                                of Lorem Ipsum, you need to be sure</p>
+                                <button class="button2">BUY</button></div>
+                        <div class="col2">
+                            <img src="12.jpg" style="width: auto;height: 200px;">
+                                    </div>
+                                    </div>
+
+                                    <div class="clmun-middle">
+                                        <div class="col1">
+                                            <h1 style="font-size:35px;"> ambalaya       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;                $50</h1>
+                                            <p style="font-size:20px;">Lorem Ipsum available, but the majority have suffered alteration in<br>some form, by injected humour, or randomised words which don't<br>look even slightly believable. If you are going to use a passage<br>of Lorem Ipsum, you need to be sure</p>
+                                                <button  class="button2">BUY</button></div>
+                                        <div class="col2">
+                                            <img src="13.jpg" style="width: auto;height: 200px;">
+                                                    </div>
+                                                    </div>
+                    
+                            
+<div class="on" style="position: relative;width: 100%;float: left;margin-top: 50px;">
+    <img class="img2" src="122.jpg" style="width: 100%;height:400px">
+    <div class="ppo" style="position: absolute;top:30px;left: 100px;">
+        <h1 style="font-size: 40px;"><b>Special</b></h1>
+        <p class="font">SALE 50% DISCOUNT</p>
+        <p class="font">ALL FOOD PRODUCTS</p>
+        <p class="float">Lorem Ipsum available, but the majority have suffered<br>some form, by injected humour, or randomised words<br>of Lorem Ipsum, you need to be sure.</p>
+    <button class="button2" style="width:180px;">DISCOVER  NOW</button>    
+    </div></div>
+
+<div class="colu">
+    <div class="colu1">
+        <div class="c1"><p style="text-align: center;font-size:30px;color:white;font-weight: bold;">Premium<br>$45</p>
+        </div>
+        <p style="color: #3D5F00;text-align: center;font-size:20px">6 Pis Chiken;<br>
+            3 Pis Beef Chiken<br>
+            2 Pis Burger</p>
+            <button class="button3">BUY NOW</button>
+    </div>
+   
+    <div class="colu2">
+        <div class="c1"><p style="text-align: center;font-size:30px;color:white;font-weight: bold;">Premium<br>$45</p>
+        </div>
+        <p style="color: #3D5F00;text-align: center;padding: 10px;font-size:20px;">6 Pis Chiken;<br>
+            3 Pis Beef Chiken<br>
+            2 Pis Burger</p>
+            <button class="button3">BUY NOW</button>
+    </div>
+    <div class="colu3">
+        <div class="c1"><p style="text-align: center;font-size:30px;color:white;font-weight: bold;">Premium<br>$45</p>
+        </div>
+        <p style="color: #3D5F00;text-align: center;padding: 10px;font-size:20px;">6 Pis Chiken;<br>
+            3 Pis Beef Chiken<br>
+            2 Pis Burger</p>
+            <button class="button3">BUY NOW</button>
+    </div>
+    </div>
+</div>
+
+<div class="kl">
+    <img class="img2" src="0.jpg" style="width: 100%;height:400px">
+    <div class="ppo" style="position: absolute;top:30px;right: 100px;">
+        <h1><b>Special</b></h1>
+        <p class="font">SALE 50% DISCOUNT</p>
+        <p class="font">ALL FOOD PRODUCTS</p>
+        <p class="float">Lorem Ipsum available, but the majority have suffered<br>some form, by injected humour, or randomised words<br>of Lorem Ipsum, you need to be sure.</p>
+        <button class="button4">DISCOVER  NOW</button>    
+        </div></div></div></div>
+
+        <div class="collast">
+            <img src="33.jpg" style="width: 100%;height: 300px;">
+            </div>
+            <div class="collast" style="background-color: #f1f1f1;text-align: center;">
+          <h2>Eat food. Not too much<br>mostly plants.</h2>
+          <p style="text-align: center;">Lorem Ipsum available, but the<br>majority have suffered alteration<br>some form, by injected humour<br>randomised words.</p>
+          <button class="button4">DISCOVER  NOW</button>      
+        </div>
+                <div class="collast">
+                    <img src="33.jpg" style="width: 100%;height: 300px;">
+       
+                </div>
+
+
+                <div class="green">
+                    <img src="logo.png" style="margin: auto;display: block;margin-top:50px;">
+                    <p style="text-align: center;color: white;">Lorem Ipsum</p>
+                    <h1 style="text-align: center;color: white;">American Food</h1>
+                    <p style="text-align: center;color: white;">The Best Taste Food</p>
+                    <div class="icons" style="display: block;margin:auto;width:250px;">
+                                            <img src="wh.jpg" style="width: 50px;">
+                    <img src="fa.jpg" style="width: 50px;">
+                    <img src="in.png" style="width: 50px;">
+                    <img src="ta.png " style="width: 50px;">
+                    </div>
+                <h2 style="text-align: center;color: white;">yourwebsite.com</h2>    
+                </div>
+</body>
+</html>
